@@ -1,0 +1,87 @@
+setBPM 140
+setTicksPerBeat 3
+setWaveform triangle
+setVolume 100
+
+setNoteTicks 3
+setPitch C2
+note
+setNoteTicks 1
+setPitch G2
+note
+setFreq 0
+note
+setPitch C2
+note
+setNoteTicks 3
+setPitch G1
+note
+setNoteTicks 2
+setPitch G2
+note
+setNoteTicks 1
+setFreq 0
+note
+setNoteTicks 3
+setPitch G#1
+note
+setNoteTicks 1
+setPitch G#2
+note
+setFreq 0
+note
+setPitch G#1
+note
+
+setNoteTicks 3
+setPitch D#1
+note
+setNoteTicks 2
+setPitch D#2
+note
+setNoteTicks 1
+setFreq 0
+note
+
+setNoteTicks 3
+setPitch F1
+note
+setNoteTicks 1
+setPitch G#2
+note
+setFreq 0
+note
+setPitch F1
+note
+
+setNoteTicks 3
+setPitch C2
+note
+setNoteTicks 2
+setPitch D#2
+note
+setNoteTicks 1
+setFreq 0
+note
+
+setNoteTicks 3
+setPitch D2
+note
+setNoteTicks 1
+setPitch E2
+note
+setNoteTicks 1
+setFreq 0
+note
+setPitch D2
+note
+
+setNoteTicks 3
+setPitch G1
+note
+setNoteTicks 2
+setPitch B2
+note
+setNoteTicks 1
+setFreq 0
+note

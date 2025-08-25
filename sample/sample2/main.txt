@@ -1,0 +1,40 @@
+# -------------------------------------
+# 抜錨
+# Compose: ナナホシ管弦楽団
+# Arrange: Nanananami(NazEt)
+# Comment: 最初のAメロの前半のみ
+# -------------------------------------
+
+newGroup p_2
+setBPM 140
+setTicksPerBeat 3
+setFreq 0
+setNoteTicks 1
+note
+load sample/sample2/patterns/drums/0.txt
+execute
+
+newGroup p_2
+setBPM 140
+setTicksPerBeat 3
+setFreq 0
+setNoteTicks 1
+note
+load sample/sample2/patterns/bass/0.txt
+execute
+
+newGroup p_2
+load sample/sample2/patterns/lead/0.txt
+execute
+
+newGroup p_2
+setBPM 140
+setTicksPerBeat 3
+setFreq 0
+setNoteTicks 1
+note
+load sample/sample2/patterns/pad/0.txt
+execute
+
+play p_2
+clear

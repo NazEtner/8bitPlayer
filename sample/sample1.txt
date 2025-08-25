@@ -1,0 +1,154 @@
+# --- サンプルソング (修正版) ---
+# 説明: 同時に再生したいパート群を同じ名前で定義する仕様に対応。
+#       前半パート 'p_A' と 後半パート 'p_b' で構成される。
+
+# =========================================
+# 1. グローバル設定
+# =========================================
+clear
+
+# =========================================
+# 2. パートの定義 (コマンドグループ)
+# =========================================
+
+# --- 曲の前半 (同時再生) パート: p_A ---
+
+# p_A: ドラムパート
+newGroup p_A
+setNoteTicks 2
+setWaveform sine
+setPitch C2
+setVolume 120
+setDecay 60
+note
+setWaveform noise
+setFreq 10000
+setDutyCycle 0.5
+setVolume 80
+setDecay 40
+note
+setWaveform sine
+setPitch C2
+setVolume 120
+setDecay 60
+note
+setWaveform noise
+setFreq 10000
+setDutyCycle 0.5
+setVolume 80
+setDecay 40
+note
+execute
+
+# p_A: ベースパート
+newGroup p_A
+setWaveform triangle
+setVolume 70
+setDecay 0
+setNoteTicks 4
+setPitch C2
+note
+setPitch G2
+note
+setPitch A2
+note
+setPitch F2
+note
+execute
+
+# p_A: メロディパート (矩形波)
+newGroup p_A
+setWaveform square
+setDutyCycle 0.5
+setVolume 200
+setDecay 25
+setNoteTicks 2
+setPitch E5
+note
+setNoteTicks 1
+setPitch D5
+note
+setNoteTicks 1
+setPitch C5
+note
+setNoteTicks 2
+setPitch G5
+note
+setNoteTicks 2
+setPitch F5
+note
+execute
+
+# --- 曲の後半 (同時再生) パート: p_B ---
+
+# p_B: ドラムパート (前半と同じ)
+newGroup p_B
+setNoteTicks 2
+setWaveform sine
+setPitch C2
+setVolume 120
+setDecay 60
+note
+setWaveform noise
+setFreq 10000
+setDutyCycle 0.5
+setVolume 80
+setDecay 40
+note
+setWaveform sine
+setPitch C2
+setVolume 120
+setDecay 60
+note
+setWaveform noise
+setFreq 10000
+setDutyCycle 0.5
+setVolume 80
+setDecay 40
+note
+execute
+
+# p_B: ベースパート (前半と同じ)
+newGroup p_B
+setWaveform triangle
+setVolume 70
+setDecay 0
+setNoteTicks 4
+setPitch C2
+note
+setPitch G2
+note
+setPitch A2
+note
+setPitch F2
+note
+execute
+
+# p_B: メロディパート (サイン波)
+newGroup p_B
+setWaveform square
+setVolume 200
+setDecay 25
+setNoteTicks 2
+setPitch E5
+note
+setNoteTicks 1
+setPitch D5
+note
+setNoteTicks 1
+setPitch C5
+note
+setNoteTicks 2
+setPitch G5
+note
+setNoteTicks 2
+setPitch F5
+note
+execute
+
+
+# =========================================
+# 3. 再生
+# =========================================
+# 前半パート 'p_A' を再生した後、続けて後半パート 'p_B' を再生する
+play p_A p_B

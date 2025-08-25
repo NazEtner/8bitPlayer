@@ -1,0 +1,27 @@
+setBPM 140
+setTicksPerBeat 3
+setWaveform square
+setDutyCycle 0.25
+setVolume 30
+setDecay 7
+
+setNoteTicks 3
+setFreq 0
+note
+setNoteTicks 6
+setPitch D#3
+note
+setPitch D3
+note
+setPitch D#3
+note
+setPitch G2
+note
+setPitch C3
+note
+setPitch C3
+note
+setPitch D3
+note
+setPitch D3
+note
