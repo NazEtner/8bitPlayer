@@ -25,3 +25,24 @@ setPitch D3
 note
 setPitch D3
 note
+
+setPitch D#3
+note
+setPitch D3
+note
+setPitch D#3
+note
+setPitch G2
+note
+setPitch C3
+note
+setNoteTicks 3
+setPitch C3
+note
+
+setPitch G#2
+note
+setPitch G2
+note
+setPitch G2
+note

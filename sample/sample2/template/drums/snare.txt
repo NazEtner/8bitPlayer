@@ -1,5 +1,5 @@
 setWaveform noise
-setFreq 8000
+setFreq 7000
 setNoteTicks 1
 setVolume 60
 setDecay 100

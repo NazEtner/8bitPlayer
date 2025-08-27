@@ -3,8 +3,9 @@ setTicksPerBeat 3
 setWaveform square
 setVolume 50
 setDecay 20
+setDutyCycle 0.25
+
 setPitch G4
-setDutyCycle 0.5
 setNoteTicks 1
 note
 setPitch D#5
@@ -44,6 +45,7 @@ note
 setNoteTicks 3
 setPitch A#4
 note
+
 setNoteTicks 1
 setPitch G#4
 note
@@ -85,4 +87,87 @@ setPitch C5
 note
 setNoteTicks 2
 setPitch D5
+note
+
+setPitch G4
+setNoteTicks 1
+note
+setPitch D#5
+note
+note
+note
+note
+setPitch F5
+note
+setPitch G5
+note
+setPitch D5
+note
+note
+setPitch D#5
+note
+setNoteTicks 2
+setPitch D5
+note
+setNoteTicks 1
+setPitch G4
+note
+setPitch C5
+note
+note
+note
+note
+setPitch A#4
+note
+setPitch G#4
+note
+setPitch A#4
+note
+note
+setPitch C5
+note
+setNoteTicks 3
+setPitch A#4
+note
+
+setPitch C5
+setNoteTicks 1
+setPitch G#4
+note
+note
+note
+note
+setPitch A#4
+note
+setPitch C5
+note
+setPitch G4
+note
+setPitch F#4
+note
+setPitch G4
+note
+setNoteTicks 2
+setPitch C5
+note
+
+setNoteTicks 1
+note
+setNoteTicks 2
+setPitch F5
+note
+setNoteTicks 1
+setPitch D#5
+note
+setNoteTicks 1
+setPitch D5
+note
+setNoteTicks 1
+setPitch D#5
+note
+setNoteTicks 1
+setPitch D5
+note
+setNoteTicks 6
+setPitch C5
 note

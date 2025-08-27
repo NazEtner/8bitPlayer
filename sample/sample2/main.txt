@@ -2,7 +2,7 @@
 # 抜錨
 # Compose: ナナホシ管弦楽団
 # Arrange: Nananami(NazEt)
-# Comment: 最初のAメロの前半のみ
+# Comment: 最初のAメロ
 # -------------------------------------
 
 newGroup p_2

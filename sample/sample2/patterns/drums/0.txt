@@ -79,3 +79,89 @@ setFreq 0
 note
 load sample/sample2/template/drums/bass.txt
 load sample/sample2/template/drums/snare.txt
+
+setNoteTicks 1
+setFreq 0
+note
+note
+
+
+load sample/sample2/template/drums/bass.txt
+setNoteTicks 1
+setFreq 0
+note
+load sample/sample2/template/drums/bass.txt
+load sample/sample2/template/drums/snare.txt
+setNoteTicks 1
+setFreq 0
+note
+load sample/sample2/template/drums/hihat.txt
+load sample/sample2/template/drums/bass.txt
+setNoteTicks 1
+setFreq 0
+note
+load sample/sample2/template/drums/bass.txt
+load sample/sample2/template/drums/snare.txt
+setNoteTicks 1
+setFreq 0
+note
+load sample/sample2/template/drums/bass.txt
+
+load sample/sample2/template/drums/bass.txt
+setNoteTicks 1
+setFreq 0
+note
+load sample/sample2/template/drums/bass.txt
+load sample/sample2/template/drums/snare.txt
+setNoteTicks 1
+setFreq 0
+note
+load sample/sample2/template/drums/hihat.txt
+load sample/sample2/template/drums/bass.txt
+setNoteTicks 1
+setFreq 0
+note
+load sample/sample2/template/drums/bass.txt
+load sample/sample2/template/drums/snare.txt
+setNoteTicks 1
+setFreq 0
+note
+load sample/sample2/template/drums/hihat.txt
+
+load sample/sample2/template/drums/bass.txt
+setNoteTicks 1
+setFreq 0
+note
+load sample/sample2/template/drums/bass.txt
+load sample/sample2/template/drums/snare.txt
+setNoteTicks 1
+setFreq 0
+note
+load sample/sample2/template/drums/hihat.txt
+load sample/sample2/template/drums/bass.txt
+setNoteTicks 1
+setFreq 0
+note
+load sample/sample2/template/drums/bass.txt
+load sample/sample2/template/drums/snare.txt
+setNoteTicks 1
+setFreq 0
+note
+load sample/sample2/template/drums/bass.txt
+
+load sample/sample2/template/drums/snare.txt
+setNoteTicks 1
+setFreq 0
+note
+load sample/sample2/template/drums/bass.txt
+load sample/sample2/template/drums/snare.txt
+load sample/sample2/template/drums/snare.txt
+load sample/sample2/template/drums/snare.txt
+load sample/sample2/template/drums/snare.txt
+setNoteTicks 1
+setFreq 0
+note
+note
+note
+note
+note
