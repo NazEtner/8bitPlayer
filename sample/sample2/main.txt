@@ -1,7 +1,7 @@
 # -------------------------------------
 # 抜錨
 # Compose: ナナホシ管弦楽団
-# Arrange: Nanananami(NazEt)
+# Arrange: Nananami(NazEt)
 # Comment: 最初のAメロの前半のみ
 # -------------------------------------
 
